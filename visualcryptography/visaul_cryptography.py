@@ -21,7 +21,7 @@ def generate_shares(image):
 
 
 def reconstruct_image(share1, share2):
-    return share1 ^ share2  # XOR to combine shares
+    return share1 ^ share2  # XOR do odtworzenia obrazu
 
 
 input_image_path = "input_image.png"  # Ścieżka do obrazu wejściowego
@@ -40,4 +40,5 @@ reconstructed = reconstruct_image(share1, share2)
 
 save_image(reconstructed, output_reconstructed_path)
 
-print("Shares and reconstructed image have been saved.")
+print("Utworzone części zapisane w " + output_share1_path + " i " + output_share2_path)
+print("Odtworzony obraz zapisany w " + output_reconstructed_path)
