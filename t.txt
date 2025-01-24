@@ -1,4 +1,3 @@
-pytania_bsi.txt
 1 Ktore z ponizszych protokolow sluza realizacji kryptograficznych tuneli wirtualnych
 	LDAP
 	X.400
